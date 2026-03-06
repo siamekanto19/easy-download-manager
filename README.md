@@ -2,6 +2,9 @@
 
 A fast, lightweight desktop download manager built with Electron, Vue 3, and TypeScript. Features multi-connection downloads, a queue system, and a polished UI with dark/light theme support.
 
+<img width="1249" height="801" alt="image" src="https://github.com/user-attachments/assets/19413485-d10d-4dec-8e50-9a587a2d60be" />
+
+
 ## Features
 
 - **Multi-connection downloads** — Split files across multiple connections for faster speeds (configurable 1–32 connections per download)
