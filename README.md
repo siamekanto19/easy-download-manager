@@ -19,6 +19,9 @@
 
 ---
 
+<img width="1232" height="832" alt="image" src="https://github.com/user-attachments/assets/0f4c6e67-2fde-42c9-aa54-ef1ce7751b6b" />
+
+
 ## ✨ Features
 
 ### ⚡ Multi-Connection Segmented Downloads
