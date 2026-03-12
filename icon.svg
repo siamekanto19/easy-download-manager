@@ -1,0 +1,36 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="180" y1="860" x2="850" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="55%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <linearGradient id="surface2" x1="300" y1="760" x2="760" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#ECFEFF"/>
+    </linearGradient>
+
+    <filter id="shadow2" x="200" y="210" width="650" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.20"/>
+    </filter>
+
+    <clipPath id="clip2">
+      <rect x="146" y="146" width="732" height="732" rx="140"/>
+    </clipPath>
+  </defs>
+
+  <rect x="146" y="146" width="732" height="732" rx="140" fill="url(#bg2)"/>
+
+  <g clip-path="url(#clip2)">
+    <ellipse cx="310" cy="270" rx="250" ry="170" fill="white" fill-opacity="0.14"/>
+    <ellipse cx="760" cy="760" rx="240" ry="180" fill="white" fill-opacity="0.06"/>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <rect x="292" y="612" width="440" height="72" rx="36" fill="url(#surface2)"/>
+    <rect x="364" y="700" width="296" height="42" rx="21" fill="url(#surface2)" opacity="0.92"/>
+
+    <path d="M512 286C533.539 286 551 303.461 551 325V468H629.592C664.336 468 681.738 510.012 657.169 534.583L539.577 652.175C524.349 667.403 499.651 667.403 484.423 652.175L366.831 534.583C342.262 510.012 359.664 468 394.408 468H473V325C473 303.461 490.461 286 512 286Z" fill="url(#surface2)"/>
+  </g>
+</svg>
